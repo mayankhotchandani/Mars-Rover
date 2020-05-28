@@ -75,3 +75,29 @@ button:hover {
 #wait{
     color: white;
 }
+#Earth{
+    height: 11vh;
+    width: 11vh;
+   position: absolute;
+   right: 1vh;
+   top: 2vh;
+   
+}
+#Earth:hover{
+    box-shadow: 0px 0px 10px  rgb(200, 252, 170);
+    border-radius: 70%;
+}
+
+
+#Moon{
+    height: 11vh;
+    width: 11vh;
+   position: absolute;
+   right: 13vh;
+   top: 2vh;
+}
+
+#Moon:hover{
+    box-shadow: 0px 0px 10px  rgb(252, 252, 252);
+    border-radius: 50%;
+}
