@@ -7,7 +7,7 @@ body{
 #heading {
    background-image: url(bgheading.jpg);
     /* background-color: midnightblue;  */
-color: rgb(154, 255, 174);
+color: mintcream;
 height: 15vh;
 font-size:300%;
 
@@ -55,7 +55,7 @@ h1{
 }
 
 
-#Moon{
+#Earth{
     height: 11vh;
     width: 11vh;
    position: absolute;
@@ -63,7 +63,7 @@ h1{
    top: 2vh;
 }
 
-#Moon:hover{
-    box-shadow: 0px 0px 10px  rgb(252, 252, 252);
+#Earth:hover{
+    box-shadow: 0px 0px 10px  rgb(158, 255, 113);
     border-radius: 50%;
 }
