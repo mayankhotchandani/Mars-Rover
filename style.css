@@ -71,3 +71,7 @@ button:hover {
     min-height: 200px;
     margin: 20px;
 }
+
+#wait{
+    color: white;
+}
