@@ -76,11 +76,11 @@ button:hover {
     color: white;
 }
 #Earth{
-    height: 11vh;
-    width: 11vh;
+    height: 70px;
+    width: 70px;
    position: absolute;
    right: 1vh;
-   top: 2vh;
+   top: 40px;
    
 }
 #Earth:hover{
@@ -90,11 +90,11 @@ button:hover {
 
 
 #Moon{
-    height: 11vh;
-    width: 11vh;
+    height: 70px;
+    width: 70px;
    position: absolute;
-   right: 13vh;
-   top: 2vh;
+   right: 90px;
+   top: 40px;
 }
 
 #Moon:hover{
