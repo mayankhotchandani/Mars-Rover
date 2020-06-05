@@ -20,25 +20,25 @@ $("form button").click(function (e) {
         let photos = data.photos;
         
         console.log(photos);
-        $("#nasa-images img").remove();
+        // $("#nasa-images img").remove();
 
-        for (let photo of photos) {
-            console.log(photo);;
+        // for (let photo of photos) {
+        //     console.log(photo);;
         
-            console.log("hell", photo.img_src, photo.id);
-            nasaImages.append('<img src="' + photo.img_src + '" alt="' + photo.id + '">');
-        }
+        //     console.log("hell", photo.img_src, photo.id);
+        //     nasaImages.append('<img src="' + photo.img_src + '" alt="' + photo.id + '">');
+        // }
     });
 
 });
-$(document).ready(function(){
-    $(document).ajaxStart(function(){
-      $("#wait").css("display", "block");
-    });
-    $(document).ajaxComplete(function(){
-      $("#wait").css("display", "none");
-    });
-    $("button").click(function(){
-      $("#txt").load(url);
-    });
-  });
+// $(document).ready(function(){
+//     $(document).ajaxStart(function(){
+//       $("#wait").css("display", "block");
+//     });
+//     $(document).ajaxComplete(function(){
+//       $("#wait").css("display", "none");
+//     });
+//     $("button").click(function(){
+//       $("#txt").load(url);
+//     });
+//   });

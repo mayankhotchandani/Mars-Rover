@@ -90,8 +90,8 @@ button:hover {
 
 
 #Moon{
-    height: 70px;
-    width: 70px;
+    height: 4rem;
+    width: 4rem;
    position: absolute;
    right: 90px;
    top: 40px;

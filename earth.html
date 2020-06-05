@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="earthStyle.css">
-    <link rel="shortcut icon" type="image/png" href="logo.png">
+    <link rel="shortcut icon" type="image/png" href="logo.png"> 
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
     <header>
@@ -14,7 +17,15 @@
             <a href="moon.html" > <img id="Moon" src="moon.png" alt="MOON"></a>
            </h1> 
     </header>
-    
-    <p id="cs">COMMING SOON</p>
+    <div id='map' ></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoibWF5YW5raG90Y2hhbmRhbmkiLCJhIjoiY2thc254M3ZvMHJraTJ4cWZ6NXVlNmVuaSJ9.kaj0xT5adEtNp2z-GobxWQ';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v11'
+});
+</script>
+   
+
 </body>
 </html>
