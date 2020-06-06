@@ -5,6 +5,10 @@ body{
    
     
 }
+#mapid{
+    height: 60vh;
+}
+
 nav{
   
     margin: 0px;
