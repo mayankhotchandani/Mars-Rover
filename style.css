@@ -76,28 +76,22 @@ button:hover {
     color: white;
 }
 #Earth{
-    height: 4rem;
-    width: 4rem;
-   position: absolute;
-   right: 1vh;
-   top: 40px;
-   
+    height: 100px;
+    width: 100px;
+   position:absolute;
+   right: 1vh;  
+   top: 1vh; 
 }
+@media screen and (min-width: 300px) {
+    #Earth {  position:absolute; top: 5vh; }
+    
+}
+        @media screen and (min-width: 1000px) {
+          #Earth {  position:absolute; top: 1vh; }
+          
+        }
+
 #Earth:hover{
     box-shadow: 0px 0px 10px  rgb(200, 252, 170);
     border-radius: 70%;
-}
-
-
-#Moon{
-    height: 4rem;
-    width: 4rem;
-   position: absolute;
-   right: 90px;
-   top: 40px;
-}
-
-#Moon:hover{
-    box-shadow: 0px 0px 10px  rgb(252, 252, 252);
-    border-radius: 50%;
 }
